@@ -1,0 +1,169 @@
+/*body margin colour*/
+body {
+  margin:0;
+  background-color: #bbb;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:125%;
+}
+
+ul.topnav {
+    margin: 0;
+    top: 0;
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    font-size: 125%;
+}
+
+.topnav li {
+    float: left;
+}
+
+
+/* Change the link color to #111 (dark grey) on hover */
+li a:hover {
+    background-color: #666;
+}
+
+h1 {	text-align:center;
+	font: 200 25px/0.5 'Josefin Sans', sans-serif;
+	font-weight:bold;
+	color: orange;
+	text-shadow: 3px 3px 3px #fff;
+}
+
+
+h2 {
+	text-align: center;
+	font: 200 25px/0.5 'Josefin Sans', sans-serif;
+	font-weight:bold;
+	color: #15156a; /*#666666; grey colour*/
+	text-shadow: 3px 3px 3px #fff;
+}
+
+h3 {
+	text-align: left;
+	font: 200 25px/0.5 'Josefin Sans', sans-serif;
+	font-weight:bold;
+	color: #666666; /*#666666; grey colour*/
+	text-shadow: 3px 3px 3px #fff;
+}
+
+h4 {
+	font: 200 20px/0.5 'Josefin Sans', sans-serif;
+	color: blue; /*blue*/
+  	text-align: center;
+	font-weight:bold;
+}
+
+
+
+
+.content-center {text-align: center;}
+
+
+
+.bottomnav {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	margin: 0;
+	padding: 3px 0;
+    background-color: #333;
+    text-align: center;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+-navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.features{
+	text-align: center;
+	font-size: 110%;
+	color:  #1858cd;
+}
+
+.tilSoftwareUdvikling{
+	text-align: center;
+        color:  #1858cd;
+}
+
+
+
+
+.large-bott {
+  margin-bottom: 100px;
+}
+
+/*body background colour*/
+.description {
+	margin: 0 3em;
+	background-color: #eee;
+}
+
+
+
+/*Image gallery for software udvikling*/
+
+.gallery {
+    border: 1px solid #ccc;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 30%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.responsive {
+    padding: 06px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.small-icons img {
+  height: 60px;
+}
